@@ -1,0 +1,148 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>75a3c965-723b-41d4-b6b5-ae300b9e39ea</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Experiment_Design.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Experiment_Design</Name>
+    <RootNamespace>Experiment_Design</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="class1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Experiment_Design.py" />
+    <Compile Include="Session B1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Session B2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Session G1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Session G3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Session G2.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Diagram\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Graph.csv" />
+    <Content Include="Slide1.JPG" />
+    <Content Include="Slide10.JPG" />
+    <Content Include="Slide11.JPG" />
+    <Content Include="Slide12.JPG" />
+    <Content Include="Slide13.JPG" />
+    <Content Include="Slide14.JPG" />
+    <Content Include="Slide15.JPG" />
+    <Content Include="Slide16.JPG" />
+    <Content Include="Slide17.JPG" />
+    <Content Include="Slide18.JPG" />
+    <Content Include="Slide19.JPG" />
+    <Content Include="Slide2.JPG" />
+    <Content Include="Slide20.JPG" />
+    <Content Include="Slide21.JPG" />
+    <Content Include="Slide22.JPG" />
+    <Content Include="Slide23.JPG" />
+    <Content Include="Slide24.JPG" />
+    <Content Include="Slide25.JPG" />
+    <Content Include="Slide26.JPG" />
+    <Content Include="Slide27.JPG" />
+    <Content Include="Slide28.JPG" />
+    <Content Include="Slide29.JPG" />
+    <Content Include="Slide3.JPG" />
+    <Content Include="Slide30.JPG" />
+    <Content Include="Slide31.JPG" />
+    <Content Include="Slide32.JPG" />
+    <Content Include="Slide33.JPG" />
+    <Content Include="Slide34.JPG" />
+    <Content Include="Slide35.JPG" />
+    <Content Include="Slide36.JPG" />
+    <Content Include="Slide37.JPG" />
+    <Content Include="Slide38.JPG" />
+    <Content Include="Slide39.JPG" />
+    <Content Include="Slide4.JPG" />
+    <Content Include="Slide40.JPG" />
+    <Content Include="Slide41.JPG" />
+    <Content Include="Slide42.JPG" />
+    <Content Include="Slide43.JPG" />
+    <Content Include="Slide44.JPG" />
+    <Content Include="Slide45.JPG" />
+    <Content Include="Slide46.JPG" />
+    <Content Include="Slide47.JPG" />
+    <Content Include="Slide48.JPG" />
+    <Content Include="Slide49.JPG" />
+    <Content Include="Slide5.JPG" />
+    <Content Include="Slide50.JPG" />
+    <Content Include="Slide51.JPG" />
+    <Content Include="Slide52.JPG" />
+    <Content Include="Slide53.JPG" />
+    <Content Include="Slide54.JPG" />
+    <Content Include="Slide55.JPG" />
+    <Content Include="Slide56.JPG" />
+    <Content Include="Slide57.JPG" />
+    <Content Include="Slide58.JPG" />
+    <Content Include="Slide59.JPG" />
+    <Content Include="Slide6.JPG" />
+    <Content Include="Slide60.JPG" />
+    <Content Include="Slide61.JPG" />
+    <Content Include="Slide62.JPG" />
+    <Content Include="Slide63.JPG" />
+    <Content Include="Slide64.JPG" />
+    <Content Include="Slide65.JPG" />
+    <Content Include="Slide66.JPG" />
+    <Content Include="Slide67.JPG" />
+    <Content Include="Slide68.JPG" />
+    <Content Include="Slide69.JPG" />
+    <Content Include="Slide7.JPG" />
+    <Content Include="Slide70.JPG" />
+    <Content Include="Slide71.JPG" />
+    <Content Include="Slide72.JPG" />
+    <Content Include="Slide73.JPG" />
+    <Content Include="Slide74.JPG" />
+    <Content Include="Slide75.JPG" />
+    <Content Include="Slide76.JPG" />
+    <Content Include="Slide77.JPG" />
+    <Content Include="Slide78.JPG" />
+    <Content Include="Slide79.JPG" />
+    <Content Include="Slide8.JPG" />
+    <Content Include="Slide80.JPG" />
+    <Content Include="Slide81.JPG" />
+    <Content Include="Slide82.JPG" />
+    <Content Include="Slide83.JPG" />
+    <Content Include="Slide84.JPG" />
+    <Content Include="Slide85.JPG" />
+    <Content Include="Slide86.JPG" />
+    <Content Include="Slide87.jpg" />
+    <Content Include="Slide88.JPG" />
+    <Content Include="Slide89.jpg" />
+    <Content Include="Slide9.JPG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
