@@ -4,7 +4,7 @@ Code for Experiment Design
 The experiment consists of 5 parts with different settings on the same type of activity.
 
 Part 1
-You are participating a 35 survival competition. 
+You are participating a 35 survival competition.
 You are assigned to a team of 5 competing with other teams.
 You will be asked to make the decision on whether to collect resources (RPs).
 Your GOAL:
